@@ -8,7 +8,6 @@ import matplotlib.pyplot as plt
 # Mustafa Alper Sayan S015674 Department of Computer Science
 
 def main(images):
-    i = 1
 
     cwd = os.getcwd()
     if not os.path.exists(cwd + "\output"):
@@ -33,7 +32,6 @@ def main(images):
 
         output_path = "output/image" + str(i) + ".jpg"
         cv.imwrite(output_path, hough_image)
-        i += 1
 
 
 def mat_plot_lib_show_images(images, titles, cols = 2):
