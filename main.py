@@ -5,7 +5,6 @@ import operator
 import os
 import matplotlib.pyplot as plt
 
-# Mustafa Alper Sayan S015674 Department of Computer Science
 
 def main(images):
 
